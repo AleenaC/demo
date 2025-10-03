@@ -17,7 +17,7 @@ public class ProjDemo {
 		
 		driver.findElement(By.xpath("//*[@id=\"input-email\"]")).sendKeys("aleenac2002@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"input-password\"]")).sendKeys("aleena");
-		
+		driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div/form/input")).click();
 		
 
       
